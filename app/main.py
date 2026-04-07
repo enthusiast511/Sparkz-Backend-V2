@@ -79,13 +79,31 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Sparkz API", version="2.0.0", lifespan=lifespan)
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
+
+def _cors_allow_origins() -> list[str]:
+    defaults = [
         "http://localhost:5173",
         "http://localhost:5174",
         "http://localhost:3000",
-    ],
+    ]
+    extra = [
+        o.strip().rstrip("/")
+        for o in (settings.CORS_ALLOWED_ORIGINS or "").split(",")
+        if o.strip()
+    ]
+    # Dedupe while preserving order
+    seen: set[str] = set()
+    out: list[str] = []
+    for o in defaults + extra:
+        if o not in seen:
+            seen.add(o)
+            out.append(o)
+    return out
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_cors_allow_origins(),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -18,6 +18,10 @@ class Settings(BaseSettings):
     UPLOAD_DIR: str = "./data/uploads"
     DATABASE_URL: str = "sqlite:///./data/sparkz.db"
 
+    # CORS: comma-separated origins (e.g. https://spark-frontend-v2.vercel.app)
+    # Local dev origins are always included in main.py
+    CORS_ALLOWED_ORIGINS: str = ""
+
     # Context limits
     MAX_TOKENS_FULL_DOC: int = 80000
 
