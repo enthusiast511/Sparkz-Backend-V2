@@ -13,6 +13,7 @@ from typing import Any, Callable, Optional
 
 from app.config import settings
 from app.prompts.assess import SYSTEM_PROMPT, build_assessment_prompt
+from app.utils.openai_retry import chat_completions_create_with_retry
 
 
 def _optional_str(val: Any) -> Optional[str]:
@@ -42,7 +43,8 @@ async def assess_batch(
     """Send one batch of items to the LLM and return assessments."""
     prompt = build_assessment_prompt(redacted_text, items)
 
-    response = await client.chat.completions.create(
+    response = await chat_completions_create_with_retry(
+        client,
         model=model,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
