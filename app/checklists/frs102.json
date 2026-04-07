@@ -1,0 +1,4776 @@
+{
+  "standard": "FRS 102 Section 1A",
+  "version": "2025.1",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "DIRECTORS' REPORT",
+      "items": [
+        {
+          "id": "1.01",
+          "requirement": "The directors’ report for a financial year must state the names of the persons who, at any time during the financial year, were directors of the company.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "directors_report",
+          "references": [
+            "s416(1)a"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "1.02",
+          "requirement": "If the company employs more than an average monthly number of 250 UK employees, give a statement describing:",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "directors_report",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "1.02.a",
+          "requirement": "for giving full and fair consideration to applications for employment by the company made by disabled persons, having regard to their particular aptitudes and abilities;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "directors_report",
+          "references": [
+            "R-C Sch 5.5"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "1.02.b",
+          "requirement": "for continuing the employment of, and for arranging appropriate training for, employees of the company who have become disabled persons during the period when they were employed by the company; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "directors_report",
+          "references": [
+            "R-C Sch 5.5"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "1.02.c",
+          "requirement": "otherwise for the training, career development and promotion of disabled persons employed by the company.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "directors_report",
+          "references": [
+            "R-C Sch 5.5"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "1.note",
+          "requirement": "[Guidance]\nThe Companies (Accounts and Reports) (Amendment and Transitional Provision) Regulations 2024 (SI 2024/1303) remove certain requirements from the Directors’ Report for small companies, with the aim of streamlining reporting and reducing complexity.These reporting requirements will apply to the financial statements for accounting periods that commenced on or after 6 April 2025.\nSmall companies will no longer be required to report on the below items in their Directors’ Report:\n(a) for giving full and fair consideration to applications for employment by the company made by disabled persons, having regard to their particular aptitudes and abilities;\n(b) for continuing the employment of, and for arranging appropriate training for, employees of the company who have become disabled persons during the period when they were employed by the company; and\n(c) otherwise for the training, career development and promotion of disabled persons employed by the company.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "1.03",
+          "requirement": "If the company has made any political donations, complete Appendix 4.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "directors_report",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "1.04",
+          "requirement": "A statement must be made where a qualifying third party indemnity provision is, at the time the report is approved, or was, at any time during the financial year, in force for the benefit of one or more directors of the company or of an associated company.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "directors_report",
+          "references": [
+            "s236(1)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "1.05",
+          "requirement": "If advantage is taken of any of the exemptions to the directors' report available to small companies, then the report must contain a statement that it is prepared in accordance with the small companies regime in a prominent position above the signature.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "directors_report",
+          "references": [
+            "s419(2)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "1.06",
+          "requirement": "The name of the director or secretary who has signed the directors' report on behalf of the board of directors to indicate their approval of the report.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "directors_report",
+          "references": [
+            "s419(1), s444(6)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "1.note_2",
+          "requirement": "[Guidance]\nThe Companies (Accounts and Reports) (Amendment and Transitional Provision) Regulations 2024 (2024 Regulations) came into force from 6 April 2025 and apply to periods beginning on or after 6 April 2025. These 2024 Regulations amend the Small Companies and Groups (Accounts and Directors’ Report) Regulations 2008.\nThe new regulations amend Schedule 5 (matters to be dealt with in directors’ report) to omit paragraph 5 and accordingly, small companies will not be required to disclose employment policies relating to disabled persons.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "title": "AUDITOR'S AND ACCOUNTANT'S REPORTS",
+      "items": [
+        {
+          "id": "2.L1",
+          "requirement": "Auditor's reports",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.01",
+          "requirement": "If an audit report is to be given, complete Appendix 1.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.01.L1",
+          "requirement": "Assurance review report",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.02",
+          "requirement": "If an assurance review report is to be given, complete Appendix 2.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.03",
+          "requirement": "Does the accountant’s report on the financial statements of the company include:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [
+            "TECH 07/16 AAF"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "2.03.a",
+          "requirement": "a title identifying the persons to whom the report is addressed (usually the Board of Directors) and including the words ‘Chartered Accountant’s /Accountants’ Report to.............';",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.03.b",
+          "requirement": "a statement that, in order to assist the directors to fulfil their duties under the Companies Act 2006, the accountants have prepared for the directors' approval the financial statements which comprise [either: state the primary financial statements such as the Profit and Loss Account, the Balance Sheet and the related notes] [ or: as set out on pages x-x] from the company's accounting records and information and explanations supplied by the client;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.03.c",
+          "requirement": "a statement that the accountant is a practising member/ member firm of the Institute of Chartered Accountants in England and Wales and is subject to its ethical and other professional requirements which are detailed at icaew.com/members handbook;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.03.e",
+          "requirement": "Optional paragraph. A statement that the directors have acknowledged their duty to ensure that the company has kept adequate accounting records and to prepare statutory accounts that give a true and fair view of the assets, liabilities, financial position and profit or loss of the company and that they consider that the company is exempt from the statutory audit requirement for the year;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.03.f",
+          "requirement": "Optional paragraph. A statement that the accountants have not been instructed to carry out an audit or a review of the accounts of the company and that for this reason, they have not verified the accuracy or completeness of the accounting records or information and explanations given to them and they do not, therefore, express any opinion on the statutory accounts;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.03.g",
+          "requirement": "the name and signature of the accountant and any appropriate designation (but not ‘Registered Auditor’/ 'Statutory Auditor'), and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.03.h",
+          "requirement": "the date of the report.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "2.04",
+          "requirement": "Do the financial statements contain a reference to the fact that they are unaudited either on the front cover or on each page of the financial statements?",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "auditor_s_and_accountant_s_reports",
+          "references": [
+            "TECH 07/16 AAF"
+          ],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "title": "FINANCIAL STATEMENTS PRESENTATION",
+      "items": [
+        {
+          "id": "3.L1",
+          "requirement": "Compliance with FRS 102 1A",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.01",
+          "requirement": "The accounts must disclose any additional information that is necessary to show a true and fair view.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "s396(4),",
+            "FRS 102-1A.16 to 1A.17"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "3.01.L1",
+          "requirement": "Compliance with LLP SORP (2024)",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.02",
+          "requirement": "A note to the financial statements which deals with accounting policies should state that:",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "financial_statements_presentation",
+          "references": [
+            "SORP-132"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "3.02.a",
+          "requirement": "the LLP's accounts have been prepared in compliance with the LLP SORP (2024), or",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.02.b",
+          "requirement": "detail the areas of non compliance and any reasons therefore.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.note",
+          "requirement": "[Guidance]\nLLP SORP 2024 refers to the requirements of paragraph 6 of FRS 100 Application of Financial Reporting Requirements. This requires that in the event of non-compliance with the SORP, the entity shall give a brief description of how the financial statements depart from the recommended practice set out in the SORP, which shall include:\n(a) for any treatment that is not in accordance with the SORP, the reasons why the treatment adopted is judged more appropriate to the entity’s particular circumstances; and\n(b) brief details of any disclosures recommended by the SORP that have not been provided, and the reasons why they have not been provided.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.03",
+          "requirement": "If a small entity departs from the principle that it is presumed to be carrying on business as a going concern, it must provide the disclosure required by FRS 102 paragraph 1AC.10.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "FRS 102-1A.B.36"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "3.04",
+          "requirement": "Present a complete set of financial statements including all of the following:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "FRS 102-1A.8"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "3.04.a",
+          "requirement": "a statement of financial position as at the reporting date;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.04.b",
+          "requirement": "an income statement for the reporting period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.04.c",
+          "requirement": "notes.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.05",
+          "requirement": "In addition to the statements required by company law",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "FRS 102-1A.9"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "3.05.a",
+          "requirement": "when a small entity recognises gains or losses in other comprehensive income it is encouraged to present a statement of total comprehensive income; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.05.b",
+          "requirement": "when a small entity has transactions with equity holders it is encouraged to present a statement of changes in equity, or a statement of income and retained earnings",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.06",
+          "requirement": "If it appears to the small entity that there are special reasons for departing from any of the principles set out in company law in preparing the small entity’s financial statements in respect of any reporting period, it may do so, in which case particulars of the departure, the reasons for it, and its effects must be given in the notes to the financial statements.\nWhen an entity departs from a requirement of FRS 102 in accordance with paragraph 3.4, or from a requirement of applicable legislation, it shall disclose the following:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "s396(5), R-C Sch 1.10(2), R-L Sch 1.10(2), FRS 102-1AC.10, 3.5"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "3.06.a",
+          "requirement": "that management has concluded that the financial statements give a true and fair view of the entity’s financial position, financial performance and, when required to be presented, cash flows;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.06.b",
+          "requirement": "that it has complied with FRS 102 or applicable legislation, except that it has departed from a particular requirement of this FRS or applicable legislation to the extent necessary to give a true and fair view;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.06.c",
+          "requirement": "the nature and effect of the departure;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.06.d",
+          "requirement": "the treatment that FRS 102 or applicable legislation would require;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.06.e",
+          "requirement": "the reason why that treatment would be so misleading in the circumstances that it would conflict with the objective of financial statements set out in Section 2 of FRS 102; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.06.f",
+          "requirement": "the treatment adopted.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.06.f.L1",
+          "requirement": "Frequency of reporting",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.07",
+          "requirement": "When the end of the reporting period changes and the annual financial statements are presented for a period longer or shorter than one year, disclose the following:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "FRS 102-1A.1, 3.10"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "3.07.a",
+          "requirement": "that fact;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.07.b",
+          "requirement": "the reason for using a longer or shorter period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.07.c",
+          "requirement": "the fact that comparative amounts presented in the financial statements (including the related notes) are not entirely comparable.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.07.c.L1",
+          "requirement": "Comparative information",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.08",
+          "requirement": "Except when FRS 102 permits otherwise, present comparative information in respect of the preceding period:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "R-C Sch 1.7(1), R-L Sch 1.7(1),",
+            "FRS 102-1A.10, 3.14"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "3.note_2",
+          "requirement": "a)  for all amounts presented in the current period's financial statements unless specifically exempted; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.note_3",
+          "requirement": "b) for narrative and descriptive information when it is relevant to an understanding of the current period's financial statements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.08.L1",
+          "requirement": "Materiality and aggregation",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.09",
+          "requirement": "Present separately:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "FRS 102-1A.1, 1A.7, 3.15"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "3.09.L1",
+          "requirement": "a) each material class of similar items; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.note_4",
+          "requirement": "b) items of a dissimilar nature or function unless they are immaterial.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.09.L2",
+          "requirement": "Identification of the financial statements",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.1",
+          "requirement": "Display the following information prominently, and repeat it when necessary for an understanding of the information presented:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "FRS 102-1A.1, 1A.7, 3.23"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "3.1.a",
+          "requirement": "the name of the reporting entity;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.1.b",
+          "requirement": "any change in its name since the end of the preceding reporting period;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.1.c",
+          "requirement": "whether the financial statements cover the individual entity or a group of entities;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.1.d",
+          "requirement": "the date of the end of the reporting period and the period covered by the financial statements;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.1.e",
+          "requirement": "the presentation currency, as defined in Section 30 of FRS 102; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.1.f",
+          "requirement": "the level of rounding, if any, used in presenting amounts in the financial statements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.11",
+          "requirement": "Disclose the following in the notes:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "FRS 102-1AC.37, 3.24(a)",
+            "s.396(A1)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "3.11.a",
+          "requirement": "the legal form of the small entity e.g. whether the company is a public or private company and whether it is limited by shares or by guarantee;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.11.b",
+          "requirement": "its country of incorporation and, if the UK, the part of the UK in which the small entity is registered;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.11.c",
+          "requirement": "the small entity’s registered number;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.11.d",
+          "requirement": "the address of its registered office (and principal place of business, if different from the registered office); and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.11.e",
+          "requirement": "where appropriate, the fact that the entity is being wound up.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.11.e.L1",
+          "requirement": "Formats",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.12",
+          "requirement": "Disclose in the notes to the accounts the reasons for any change from one format to another.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "R-C Sch 1.2(2), R-L Sch 1.2(2)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "3.13",
+          "requirement": "Although not a requirement for a small entity under FRS 102, a small entity must prepare a statement of cash flows if it is required by an applicable SORP or law or other relevant regulation.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_statements_presentation",
+          "references": [
+            "FRS 102-3.1B"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "3.13.L1",
+          "requirement": "LLP Statement of Members' Responsibilities",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "3.14",
+          "requirement": "The statement of members' responsibilities, when stating that the financial statements comply with the Companies Act 2006, should add \"as applied to limited liability partnerships by the Limited Liability Partnerships (Accounts and Audit) (Application of Companies Act 2006) Regulations 2008\".",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "financial_statements_presentation",
+          "references": [
+            "SI 2008/1911-3(2)b"
+          ],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "STATEMENT OF FINANCIAL POSITION",
+      "items": [
+        {
+          "id": "4.01",
+          "requirement": "Present a statement of financial position in accordance with either Format 1 (see below) or Format 2 (see Appendix 6):\n\nNB. The references in capital letters are not always the same as in the Small Company/ LLP Regulations.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "statement_of_financial_position",
+          "references": [
+            "R-C Sch 1 (Part 1) Section B,",
+            "R-L Sch 1 (Part 1) Section B,",
+            "FRS 102-1A.12"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L1",
+          "requirement": "Balance sheet - Format 1 - Full accounts",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L2",
+          "requirement": "A. Called-up share capital not paid",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L3",
+          "requirement": "B. Fixed assets",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L4",
+          "requirement": "I. Intangible assets",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L5",
+          "requirement": "1 Goodwill",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L6",
+          "requirement": "2 Other intangible assets",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L7",
+          "requirement": "II. Tangible assets",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L8",
+          "requirement": "1 Land and buildings",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L9",
+          "requirement": "2 Plant and machinery, etc.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L10",
+          "requirement": "III. Investments",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L11",
+          "requirement": "1 Shares in group undertakings and participating interests",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.note",
+          "requirement": "2 Loans to group undertakings and undertakings in which the company/LLP has a participating interest",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L12",
+          "requirement": "3 Other investments other than loans",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L13",
+          "requirement": "4 Other investments",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L14",
+          "requirement": "C. Current assets",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L15",
+          "requirement": "I. Stocks",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L16",
+          "requirement": "1 Stocks",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L17",
+          "requirement": "2 Payments on account",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L18",
+          "requirement": "II. Debtors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L19",
+          "requirement": "1 Trade debtors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.note_2",
+          "requirement": "2 Amounts owed by group undertakings and undertakings in which the company/LLP has a participating interest",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L20",
+          "requirement": "3 Other debtors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L21",
+          "requirement": "III. Investments",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L22",
+          "requirement": "1 Shares in group undertakings",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L23",
+          "requirement": "2 Other investments",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L24",
+          "requirement": "IV. Cash at bank and in hand",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L25",
+          "requirement": "D. Prepayments and accrued income",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L26",
+          "requirement": "E. Creditors: amounts falling due within one year",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L27",
+          "requirement": "1 Bank loans and overdrafts",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L28",
+          "requirement": "2 Trade creditors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.note_3",
+          "requirement": "3 Amounts owed to group undertakings and undertakings in which the company/LLP has a participating interest",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L29",
+          "requirement": "Taxation and social security",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L30",
+          "requirement": "4 Other creditors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L31",
+          "requirement": "F. Net current assets (liabilities)",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L32",
+          "requirement": "G. Total assets less current liabilities",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.note_4",
+          "requirement": "H. Creditors: amounts falling due after more than one year",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L33",
+          "requirement": "1 Bank loans and overdrafts",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L34",
+          "requirement": "2 Trade creditors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.note_5",
+          "requirement": "3 Amounts owed to group undertakings and undertakings in which the company/LLP has a participating interest",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L35",
+          "requirement": "Taxation and social security",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L36",
+          "requirement": "4 Other creditors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L37",
+          "requirement": "I. Provisions for liabilities",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L38",
+          "requirement": "J. Accruals and deferred income",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L39",
+          "requirement": "J. Loans and other debts due to members",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L40",
+          "requirement": "K. Capital and reserves/ Members' other interests",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L41",
+          "requirement": "I. Called-up share capital",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L42",
+          "requirement": "I. Members' capital",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L43",
+          "requirement": "II. Share premium account",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L44",
+          "requirement": "III. Revaluation reserve",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L45",
+          "requirement": "IV. Other reserves",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.01.L46",
+          "requirement": "V. Profit and loss account",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "4.02",
+          "requirement": "Where an asset or liability relates to more than one item in the balance sheet, the relationship of such asset or liability to the relevant items must be disclosed either under those items or in the notes to the accounts.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "statement_of_financial_position",
+          "references": [
+            "R-C Sch 1.9A, R-L Sch 1.9A, FRS 102-1AC.11"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "4.03",
+          "requirement": "Present current and non-current assets as separate classifications in its statement of financial position.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "statement_of_financial_position",
+          "references": [
+            "R-C Sch 1(Part 1)Sec B(Note 5), R-L Sch 1(Part 1)(Sec B(Note 3)"
+          ],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_5",
+      "title": "STATEMENT OF COMPREHENSIVE INCOME",
+      "items": [
+        {
+          "id": "5.01",
+          "requirement": "Present the profit or loss for the period in an income statement in accordance with either Format 1 (see below) or Format 2 (see Appendix 6).",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "statement_of_comprehensive_income",
+          "references": [
+            "R-C Sch 1 (Part 1) Section B,",
+            "R-L Sch 1 (Part 1) Section B,",
+            "FRS 102-1A.14"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "5.note",
+          "requirement": "Profit and loss account - Format 1 - Full accounts",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L1",
+          "requirement": "1 Turnover",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L2",
+          "requirement": "2 Cost of sales",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L3",
+          "requirement": "3 Gross profit or loss",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L4",
+          "requirement": "4 Distribution costs",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L5",
+          "requirement": "5 Administrative expenses",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L6",
+          "requirement": "6 Other operating income",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L7",
+          "requirement": "7 Income from shares in group undertakings",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L8",
+          "requirement": "8 Income from participating interests",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L9",
+          "requirement": "9 Income from other fixed asset investments",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L10",
+          "requirement": "10 Other interest receivable and similar income",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L11",
+          "requirement": "11 Amounts written off investments",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L12",
+          "requirement": "12 Interest payable and similar expenses",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L13",
+          "requirement": "13 Tax on profit or loss",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L14",
+          "requirement": "14 Profit or loss after taxation",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.note_2",
+          "requirement": "15 Other taxes not shown under the above items",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.01.L15",
+          "requirement": "16 Profit or loss for the financial year",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.note_3",
+          "requirement": "16 Profit or loss for the financial year before members' remuneration and profit shares",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "5.02",
+          "requirement": "Show the amount of a company's/LLP's profit or loss before taxation.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "statement_of_comprehensive_income",
+          "references": [
+            "R-C Sch 1.6, R-L Sch 1.6"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "5.03",
+          "requirement": "Where any amount relating to any previous financial year is included in any item in the profit and loss account, state the effect.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "statement_of_comprehensive_income",
+          "references": [
+            "R-C Sch 1.61(1), R-L Sch 1.59(1), FRS 102-1AC.9"
+          ],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_6",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS",
+      "items": [
+        {
+          "id": "6.01",
+          "requirement": "Disclose any provision for permanent diminution in value of fixed assets (including fixed asset investments) if not shown separately in the profit and loss account and, if appropriate, the amount of any provision written back.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "notes_to_the_financial_statements",
+          "references": [
+            "R-C Sch 1.19(3), 1.20(2), R-L Sch 1.19(3), 1.20(2)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "6.02",
+          "requirement": "Disclose the amount and nature of any individual items of income or expenses of exceptional size or incidence.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "notes_to_the_financial_statements",
+          "references": [
+            "R-C Sch 1.61(2), R-L Sch 1.59(2),",
+            "FRS 102-1AC.32"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "6.03",
+          "requirement": "Disclose the average number of persons employed by the small entity in the reporting period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "notes_to_the_financial_statements",
+          "references": [
+            "s.411(1)(1A), FRS 102-1AC.33"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "6.04",
+          "requirement": "Disclose the income and interest receivable derived from group undertakings.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "notes_to_the_financial_statements",
+          "references": [
+            "R-C Sch 1.9A(12), R-L Sch 1.9A(10)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "6.05",
+          "requirement": "Disclose the interest payable and similar expenses on loans from group undertakings.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "notes_to_the_financial_statements",
+          "references": [
+            "R-C Sch 1.9A(13), R-L Sch 1.9A(11)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "6.06",
+          "requirement": "In order for the accounts to give a true and fair view, the SORP encourages small LLPs to include the reconciliation of movements in 'Members' other interests' detailed in paragraph 60 of the SORP and that the reconciliation is provided for both the current and preceding period in line with paragraph 1A.10 of FRS 102.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "notes_to_the_financial_statements",
+          "references": [
+            "SORP-27D"
+          ],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_7",
+      "title": "ACCOUNTING POLICIES",
+      "items": [
+        {
+          "id": "7.01",
+          "requirement": "Disclose the accounting policies adopted by the small entity in determining the amounts to be included in respect of items shown in the statement of financial position and in determining the profit or loss of the small entity (including such policies with respect to the depreciation and impairment of assets).",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "R-C Sch 1.44, R-L Sch 1.44,",
+            "FRS 102.1AC.3"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "7.02",
+          "requirement": "An entity shall disclose material accounting policy information.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "FRS 102.1AC.3,  8.5"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "7.note",
+          "requirement": "[Guidance]\nParagraph 8.5 address similar requirements for disclosing accounting policy information. Including information about the judgements made in applying the small entity’s accounting policies, as set out in paragraph 8.6, may be useful to users of the small entity’s financial statements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.03",
+          "requirement": "If any amount is included in a small entity’s statement of financial position in respect of development costs, disclose in the note on accounting policies the following information:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "R-C Sch 1.21(2), R-L Sch 1.21(2),",
+            "FRS 102-1AC.4"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "7.03.a",
+          "requirement": "the period over which the amount of those costs originally capitalised is being or is to be written off; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.03.b",
+          "requirement": "the reasons for capitalising the development costs in question.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.04",
+          "requirement": "Where development costs are shown or included as an asset in the small entity’s financial statements and the amount is not treated as a realised loss because there are special circumstances justifying this, disclose in a note to the financial statements the reasons for showing development costs as an asset and that it is not a realised loss.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "accounting_policies",
+          "references": [
+            "s.844,",
+            "FRS 102-1AC.5"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "7.05",
+          "requirement": "Where in exceptional cases the useful life of intangible assets cannot be reliably estimated, disclose in a note to the financial statements the period\nover which those intangible assets are being written off and the reasons for choosing that period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "R-C Sch 1.22(4), R-L Sch 1.22(4),",
+            "FRS 102-1AC.6"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "7.note_2",
+          "requirement": "Changes in presentation and accounting policies and corrections of prior\nperiod errors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.06",
+          "requirement": "Where there is a change in the presentation of a small entity’s statement of financial position or income statement, disclose and explain, in a note to the financial statements in which the new presentation is first used, particulars of any such change, and the reasons for the change.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "R-C Sch 1.2(2), R-L Sch 1.2(2),",
+            "FRS 102-1AC.7"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "7.07",
+          "requirement": "Where the corresponding amount for the immediately preceding reporting period is not comparable with the amount to be shown for the item in question in respect of the reporting period, and the corresponding amount is adjusted, disclose in a note to the financial statements the particulars of the non-comparability and of any adjustment.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "R-C Sch 1.7(2), R-L Sch 1.7(2),",
+            "FRS 102-1AC.8"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "7.note_3",
+          "requirement": "[Guidance]\nThis is likely to be relevant where there has either been a change in accounting policy or the correction of a material prior period error. Paragraphs 10.13, 10.14 and 10.23 address similar requirements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.08",
+          "requirement": "When an amendment to an FRS  has an effect on the current period or any prior period, or might have an effect on future periods, disclose the following:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "FRS 102-1AC.8, 10.13"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "7.08.a",
+          "requirement": "the nature of the change in accounting policy;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.08.b",
+          "requirement": "for the current period and each prior period presented, to the extent practicable, the amount of the adjustment for each financial statement line item affected;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.08.c",
+          "requirement": "the amount of the adjustment relating to periods before those presented, to the extent practicable; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.08.d",
+          "requirement": "an explanation if it is impracticable to determine the amounts to be disclosed in (b) or (c) above.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.note_4",
+          "requirement": "[Guidance]\nFinancial statements of subsequent periods need not repeat these disclosures.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.09",
+          "requirement": "When a voluntary change in accounting policy has an effect on the current period or any prior period, disclose the following:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "FRS 102-1AC.8, 10.14"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "7.09.a",
+          "requirement": "the nature of the change in accounting policy;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.09.b",
+          "requirement": "the reasons why applying the new accounting policy provides reliable and more relevant information;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.09.c",
+          "requirement": "to the extent practicable, the amount of the adjustment for each financial statement line item affected, shown separately:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "7.09.c.i",
+          "requirement": "for the current period;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.09.c.ii",
+          "requirement": "for each prior period presented;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.09.c.iii",
+          "requirement": "in the aggregate for periods before those presented; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.09.d",
+          "requirement": "an explanation if it is impracticable to determine the amounts to be disclosed in (c) above.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.note_5",
+          "requirement": "[Guidance]\nFinancial statements of subsequent periods need not repeat these disclosures.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.09.d.L1",
+          "requirement": "Disclosure of prior period errors",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.10",
+          "requirement": "Disclose the following about material prior period errors:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "FRS 102-1AC.8, 10.23"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "7.10.a",
+          "requirement": "the nature of the prior period error;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.10.b",
+          "requirement": "for each prior period presented, to the extent practicable, the amount of the correction for each financial statement line item affected;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.10.c",
+          "requirement": "to the extent practicable, the amount of the correction at the beginning of the earliest prior period presented; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.10.d",
+          "requirement": "an explanation if it is not practicable to determine the amounts to be disclosed in (b) or (c) above.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.note_6",
+          "requirement": "[Guidance]\nFinancial statements of subsequent periods need not repeat these disclosures.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "7.11",
+          "requirement": "Where any amount relating to a preceding reporting period is included in any item in the income statement, disclose the effect.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "accounting_policies",
+          "references": [
+            "R-C Sch 1.61(1), R-L Sch 1.59(1),",
+            "FRS 102-1AC.9"
+          ],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_8",
+      "title": "FINANCIAL INSTRUMENTS",
+      "items": [
+        {
+          "id": "8.01",
+          "requirement": "Disclose the following for each item in fixed asset investments shown separately either in the statement of financial position, or in the notes:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "8.01.a",
+          "requirement": "the aggregate amount (on the basis of cost or revaluation):",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.48(1)&(2), R-L Sch 1.47(1)&(2),",
+            "FRS102-1AC.12(a)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.01.a.i",
+          "requirement": "at the beginning of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.01.a.ii",
+          "requirement": "at the end of the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.01.b",
+          "requirement": "the effect of the following during the period:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.48(1)&(2), R-L Sch 1.47(1)&(2),",
+            "FRS102-1AC.12(b)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.01.b.i",
+          "requirement": "any revaluation;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.01.b.ii",
+          "requirement": "acquisitions;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.01.b.iii",
+          "requirement": "disposals; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.01.b.iv",
+          "requirement": "any transfers.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.02",
+          "requirement": "Disclose the following for each item in fixed asset investments shown separately either in the statement of financial position, or in the notes:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.48(3), R-L Sch 1.47(3),",
+            "FRS102-1AC.13"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.02.a",
+          "requirement": "the cumulative amount of provisions for depreciation and impairment of assets:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "8.02.a.i",
+          "requirement": "at the beginning of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.02.a.ii",
+          "requirement": "at the end of the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.02.b",
+          "requirement": "provision for depreciation and impairment during the period;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.02.c",
+          "requirement": "adjustments to provisions during the period arising from disposals; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.02.d",
+          "requirement": "other adjustments to provisions during the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.note",
+          "requirement": "[Guidance]\nThese reconciliations need not be presented for prior periods.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.03",
+          "requirement": "If items of fixed asset investments are stated at revalued amounts:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.34, R-L Sch 1.34,",
+            "FRS 102-1AC.14,1AC.16"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.03.a",
+          "requirement": "state which items;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.03.b",
+          "requirement": "state in the accounting policies the basis of valuation; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.03.c",
+          "requirement": "state the comparable amounts of cost and accumulated depreciation on the historical cost basis.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.note_2",
+          "requirement": "[Guidance]\nThe comparable amounts refers to the aggregate amount of cost and the aggregate of accumulated depreciation and accumulated impairment losses that would have been required according to the historical cost accounting rules (Schedule 1, paragraph 34(4)).\n\nParagraphs 17.32A(d) and 18.29A(d) address similar requirements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.04",
+          "requirement": "For revalued fixed asset investments, other than listed investments, show:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.49, R-L Sch 1.48,",
+            "FRS 102-1AC.15"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.04.a",
+          "requirement": "the year in which they were revalued;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.04.b",
+          "requirement": "the amount of each valuation; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.04.c",
+          "requirement": "if valued during the year, the names or qualifications of the valuers and the basis of valuation.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.05",
+          "requirement": "Where fixed asset investments are measured at revalued amount, disclose the following in tabular form:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.54(2), R-L Sch 1.53(2),",
+            "FRS 102-1AC.17"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.05.a",
+          "requirement": "movements in the revaluation reserve in the reporting period, with an explanation of the tax treatment of items therein; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.05.b",
+          "requirement": "the carrying amount in the statement of financial position that would have been recognised had the fixed asset investments not been revalued.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.06",
+          "requirement": "Where fixed asset investments are measured at revalued amount, disclose the treatment for taxation purposes of amounts credited or debited to the revaluation reserve in a note to the financial statements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.35(6), R-L Sch 1.35(3),",
+            "FRS 102-1AC.18"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.07",
+          "requirement": "Disclose provisions for impairment of fixed asset investments in a note to the financial statements if not shown separately in the income statement.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.19(3), R-L Sch 1.19(3),",
+            "FRS 102-1AC.20"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.08",
+          "requirement": "Disclose, either separately or in aggregate, provisions for impairment of fixed asset investments that are reversed because the reasons for which they were made cease to apply, in a note to the financial statements if not shown separately in the income statement.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.20(2), R-L Sch 1.20(2),",
+            "FRS 102-1AC.21"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.09",
+          "requirement": "Where fixed asset investments are included at a valuation which is not market value (e.g. Directors' valuation), state the method used and the reason for adopting it.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.32(3), R-L Sch 1.32(3)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.1",
+          "requirement": "Where financial instruments have been measured in accordance with fair value accounting rules, disclose:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.51(2)a,b,",
+            "R-L Sch 1.50(2)a,b,",
+            "FRS 102-1AC.22"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.1.a",
+          "requirement": "the significant assumptions underlying the valuation models and techniques used to determine the fair values:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.1.b",
+          "requirement": "for each category of financial instrument, the fair value of the assets in that category and the change in value:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "8.1.b.i",
+          "requirement": "included directly in the income statement; or",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.1.b.ii",
+          "requirement": "credited to or debited from the fair value reserve.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.11",
+          "requirement": "Where financial instruments have been measured in accordance with fair value accounting rules, disclose for each class of derivatives, the extent and nature of the instruments, including significant terms and conditions that may affect the amount, timing and certainty of future cash flows.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.51(2)c,",
+            "R-L Sch 1.50(2)c,",
+            "FRS 102-1AC.23"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.12",
+          "requirement": "Where any amount is transferred to or from the fair value reserve during the reporting period, disclose in tabular form:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.51(3), R-L Sch 1.50(3),",
+            "FRS 102-1AC.24"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.12.a",
+          "requirement": "the amount of the reserve at the beginning and end of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.12.b",
+          "requirement": "the amount transferred to or from the reserve during the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.13",
+          "requirement": "Give disclosures required by international accounting standards (see section 11 in checklist 4) in respect of financial instruments which are included, in the permitted circumstances, in the accounts at fair value under international accounting standards.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.36(4), R-L Sch 1.36(4),",
+            "FRS 102-1AC.26"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.14",
+          "requirement": "Disclose for each category of debtor any amounts falling due after one year.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.9A(note 5), R-L Sch 1.9A(note 3)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.15",
+          "requirement": "Where the amount repayable on any debt owed by the company/LLP exceeds the value of the consideration originally received, and the surplus is treated as an asset, it should be subject to annual amortisation, and fully written off before repayment of the debt. If the current amount is not shown separately in the balance sheet, disclose the assets in a note.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.25, R-L Sch 1.25"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.16",
+          "requirement": "Disclose the aggregate for all items under creditors of:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.55(1&2),",
+            "R-L Sch 1.54(1&2),",
+            "FRS 102-1AC.27,28"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "8.16.a",
+          "requirement": "the total amount falling due after five years and not repayable by instalments;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.16.b",
+          "requirement": "for any amounts payable by instalments, the total amount of those instalments which are payable after five years; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.16.c",
+          "requirement": "in respect of each item shown under 'creditors' in the balance sheet for which security has been given, disclose:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "8.16.c.i",
+          "requirement": "the aggregate amount of any debts included; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.16.c.ii",
+          "requirement": "an indication of the nature and form of security.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.17",
+          "requirement": "The amount of any convertible debts, including debenture loans, must be shown separately from other debts or debentures.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "financial_instruments",
+          "references": [
+            "R-C Sch 1.9A (note 7(a)),",
+            "R-L Sch 1.9A (note 5(a))"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.17.L1",
+          "requirement": "LLP members' interests",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "general",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "8.18",
+          "requirement": "The notes to the accounts should explain where amounts in 'Loans and other debts due to members' (other than members' capital classified as debt) would rank in relation to other creditors who are unsecured in the event of a winding-up.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "financial_instruments",
+          "references": [
+            "SORP-27C, 63"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.19",
+          "requirement": "Details of any protection afforded to creditors (other than members) in the event of a winding-up, which is legally enforceable and cannot be revoked solely by a decision of the members.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "financial_instruments",
+          "references": [
+            "SORP-27C, 63"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "8.2",
+          "requirement": "Disclose what restrictions or limitations exist on the ability of the members to reduce the amount of 'Members' other interests', or state that there are no such restrictions.",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "llp",
+              "description": "Applicable to LLPs",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for companies — this disclosure is required for LLPs only.",
+          "category": "financial_instruments",
+          "references": [
+            "SORP-27C, 63"
+          ],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_10",
+      "title": "INVESTMENT PROPERTY",
+      "items": [
+        {
+          "id": "10.01",
+          "requirement": "Disclose the following for investment property:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "10.01.a",
+          "requirement": "the aggregate amount (on the basis of cost or revaluation):",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [
+            "R-C Sch 1.48(1),(2), R-L Sch 1.47(1),(2),",
+            "FRS102-1AC.12(a)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "10.01.a.i",
+          "requirement": "at the beginning of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.01.a.ii",
+          "requirement": "at the end of the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.01.b",
+          "requirement": "the effect of the following during the period:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [
+            "R-C Sch 1.48(1),(2), R-L Sch 1.47(1),(2),",
+            "FRS102-1AC.12(b)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "10.01.b.i",
+          "requirement": "any revaluation;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.01.b.ii",
+          "requirement": "acquisitions;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.01.b.iii",
+          "requirement": "disposals; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.01.b.iv",
+          "requirement": "any transfers.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.02",
+          "requirement": "Disclose the following for investment property:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [
+            "R-C Sch 1.48(3), R-L Sch 1.47(3),",
+            "FRS102-1AC.13"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "10.02.a",
+          "requirement": "the cumulative amount of provisions for depreciation and impairment of assets:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "10.02.a.i",
+          "requirement": "at the beginning of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.02.a.ii",
+          "requirement": "at the end of the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.02.b",
+          "requirement": "provision for depreciation and impairment during the period;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.02.c",
+          "requirement": "adjustments to provisions during the period arising from disposals; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.02.d",
+          "requirement": "other adjustments to provisions during the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.note",
+          "requirement": "[Guidance]\nThese reconciliations need not be presented for prior periods.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.03",
+          "requirement": "Disclose the aggregate amount of any finance cost capitalised and included in the production cost of any asset.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [
+            "R-C Sch 1.27(3)(b), R-L Sch 1.27(3)(b),",
+            "FRS 102-1AC.19"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "10.04",
+          "requirement": "Disclose provisions for impairment of investment property in a note to the financial statements if not shown separately in the income statement.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [
+            "R-C Sch 1.19(3), R-L Sch 1.19(3),",
+            "FRS 102-1AC.20"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "10.05",
+          "requirement": "Disclose, either separately or in aggregate, provisions for impairment of investment property that are reversed because the reasons for which they were made cease to apply, in a note to the financial statements if not shown separately in the income statement.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [
+            "R-C Sch 1.20(2), R-L Sch 1.20(2),",
+            "FRS 102-1AC.21"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "10.06",
+          "requirement": "Where investment properties have been measured in accordance with the fair value accounting rules, disclose:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [
+            "R-C Sch 1.51(2)a,b,",
+            "R-L Sch 1.50(2)a,b,",
+            "FRS 102-1AC.22"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "10.06.a",
+          "requirement": "the significant assumptions underlying the valuation models and techniques used to determine the fair values:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.06.b",
+          "requirement": "for each category of investment property, the fair value of the assets in that category and the change in value:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "10.06.b.i",
+          "requirement": "included directly in the income statement; or",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.06.b.ii",
+          "requirement": "credited to or debited from the fair value reserve.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.07",
+          "requirement": "Where any amount is transferred to or from the fair value reserve during the reporting period, disclose in tabular form:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [
+            "R-C Sch 1.51(3), R-L Sch 1.50(3),",
+            "FRS 102-1AC.24"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "10.07.a",
+          "requirement": "the amount of the reserve at the beginning and end of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "10.07.b",
+          "requirement": "the amount transferred to or from the reserve during the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "investment_property",
+          "references": [],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_11",
+      "title": "PROPERTY, PLANT AND EQUIPMENT",
+      "items": [
+        {
+          "id": "11.01",
+          "requirement": "Disclose the following for each class of tangible fixed assets shown separately either in the statement of financial position, or in the notes:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "11.01.a",
+          "requirement": "the aggregate amount (on the basis of cost or revaluation):",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.48(1),(2), R-L Sch 1.47(1),(2),",
+            "FRS102-1AC.12(a)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "11.01.a.i",
+          "requirement": "at the beginning of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.01.a.ii",
+          "requirement": "at the end of the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.01.b",
+          "requirement": "the effect of the following during the period:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.48(1),(2), R-L Sch 1.47(1),(2),",
+            "FRS102-1AC.12(b)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "11.01.b.i",
+          "requirement": "any revaluation;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.01.b.ii",
+          "requirement": "acquisitions;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.01.b.iii",
+          "requirement": "disposals; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.01.b.iv",
+          "requirement": "any transfers.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.02",
+          "requirement": "Disclose the following for each class of tangible fixed assets shown separately either in the statement of financial position, or in the notes:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.48(3), R-L Sch 1.47(3),",
+            "FRS102-1AC.13"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "11.02.a",
+          "requirement": "the cumulative amount of provisions for depreciation and impairment of assets:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "11.02.a.i",
+          "requirement": "at the beginning of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.02.a.ii",
+          "requirement": "at the end of the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.02.b",
+          "requirement": "provision for depreciation and impairment during the period;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.02.c",
+          "requirement": "adjustments to provisions during the period arising from disposals; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.02.d",
+          "requirement": "other adjustments to provisions during the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.note",
+          "requirement": "[Guidance]\nThese reconciliations need not be presented for prior periods.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.03",
+          "requirement": "If items of property, plant and equipment are stated at revalued amounts:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.34, R-L Sch 1.34,",
+            "FRS 102-1AC.14,1AC.16"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "11.03.a",
+          "requirement": "state which items;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.03.b",
+          "requirement": "state in the accounting policies the basis of valuation; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.03.c",
+          "requirement": "state the comparable amounts of cost and accumulated depreciation on the historical cost basis.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.04",
+          "requirement": "For revalued property, plant and equipment show:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.49, R-L Sch 1.48,",
+            "FRS 102-1AC.15"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "11.04.a",
+          "requirement": "the year in which they were revalued;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.04.b",
+          "requirement": "the amount of each valuation; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.04.c",
+          "requirement": "if valued during the year, the names or qualifications of the valuers and the basis of valuation.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.05",
+          "requirement": "Where property, plant and equipment is measured at revalued amount, disclose the following in tabular form:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.54(2), R-L Sch 1.53(2),",
+            "FRS 102-1AC.16, 1AC.17"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "11.05.a",
+          "requirement": "movements in the revaluation reserve in the reporting period, with an explanation of the tax treatment of items therein; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.05.b",
+          "requirement": "the carrying amount in the statement of financial position that would have been recognised had the property, plant and equipment not been revalued i.e. the historical cost, accumulated depreciation and accumulated impairment losses.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "11.06",
+          "requirement": "Where property, plant and equipment is measured at revalued amount, disclose the treatment for taxation purposes of amounts credited or debited to the revaluation reserve in a note to the financial statements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.35(6), R-L Sch 1.35(3),",
+            "FRS 102-1AC.18"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "11.07",
+          "requirement": "Disclose the aggregate amount of any finance cost capitalised and included in the production cost of any asset.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.27(3)b,",
+            "R-L Sch 1.27(3)b,",
+            "FRS 102-1AC.19"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "11.08",
+          "requirement": "Disclose provisions for impairment of property, plant and equipment in a note to the financial statements if not shown separately in the income statement.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.19(3), R-L Sch 1.19(3),",
+            "FRS 102-1AC.20"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "11.09",
+          "requirement": "Disclose, either separately or in aggregate, provisions for impairment of property, plant and equipment that are reversed because the reasons for which they were made cease to apply, in a note to the financial statements if not shown separately in the income statement.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "property_plant_and_equipment",
+          "references": [
+            "R-C Sch 1.20(2), R-L Sch 1.20(2),",
+            "FRS 102-1AC.21"
+          ],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_12",
+      "title": "INTANGIBLE ASSETS",
+      "items": [
+        {
+          "id": "12.01",
+          "requirement": "Disclose the following for each class of intangible fixed assets shown separately either in the statement of financial position, or in the notes:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "12.01.a",
+          "requirement": "the aggregate amount (on the basis of cost or revaluation):",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.48(1)&(2),",
+            "R-L Sch 1.47(1)&(2),",
+            "FRS102-1AC.12(a)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "12.01.a.i",
+          "requirement": "at the beginning of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.01.a.ii",
+          "requirement": "at the end of the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.01.b",
+          "requirement": "the effect of the following during the period:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.48(1)&(2),",
+            "R-L Sch 1.47(1)&(2),",
+            "FRS102-1AC.12(b)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "12.01.b.i",
+          "requirement": "any revaluation;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.01.b.ii",
+          "requirement": "acquisitions;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.01.b.iii",
+          "requirement": "disposals; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.01.b.iv",
+          "requirement": "any transfers.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.02",
+          "requirement": "Disclose the following for each class of intangible fixed assets shown separately either in the statement of financial position, or in the notes:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.48(3), R-L Sch 1.47(3),",
+            "FRS102-1AC.13"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "12.02.a",
+          "requirement": "the cumulative amount of provisions for depreciation and impairment of assets:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "12.02.a.i",
+          "requirement": "at the beginning of the period; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.02.a.ii",
+          "requirement": "at the end of the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.02.b",
+          "requirement": "provision for depreciation and impairment during the period;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.02.c",
+          "requirement": "adjustments to provisions during the period arising from disposals; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.02.d",
+          "requirement": "other adjustments to provisions during the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.note",
+          "requirement": "[Guidance]\nThese reconciliations need not be presented for prior periods.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.03",
+          "requirement": "If intangible assets are stated at revalued amounts:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.34, R-L Sch 1.34,",
+            "FRS 102-1AC.14,1AC.16"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "12.03.a",
+          "requirement": "state which items;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.03.b",
+          "requirement": "state in the accounting policies the basis of valuation; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.03.c",
+          "requirement": "state the comparable amounts of cost and accumulated depreciation on the historical cost basis.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.04",
+          "requirement": "For revalued intangible assets show:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.49, R-L Sch 1.48,",
+            "FRS 102-1AC.15"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "12.04.a",
+          "requirement": "the year in which they were revalued;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.04.b",
+          "requirement": "the amount of each valuation; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.04.c",
+          "requirement": "if valued during the year, the names or qualifications of the valuers and the basis of valuation.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.05",
+          "requirement": "Where intangible assets are measured at revalued amount, disclose the following in tabular form:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.54(2), R-L Sch 1.53(2),",
+            "FRS 102-1AC.16, 1AC.17"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "12.05.a",
+          "requirement": "movements in the revaluation reserve in the reporting period, with an explanation of the tax treatment of items therein; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.05.b",
+          "requirement": "the carrying amount in the statement of financial position that would have been recognised had the intangible asset not been revalued i.e. the historical cost, accumulated depreciation and accumulated impairment losses.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.06",
+          "requirement": "Where intangible assets are measured at revalued amount, disclose the treatment for taxation purposes of amounts credited or debited to the revaluation reserve in a note to the financial statements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.35(6), R-L Sch 1.35(3),",
+            "FRS 102-1AC.18"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "12.07",
+          "requirement": "Disclose the aggregate amount of any finance cost capitalised and included in the production cost of any asset.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.27(3)b,",
+            "R-L Sch 1.27(3)b,",
+            "FRS 102-1AC.19"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "12.08",
+          "requirement": "Disclose provisions for impairment of intangible assets in a note to the financial statements if not shown separately in the income statement.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.19(3), R-L Sch 1.19(3),",
+            "FRS 102-1AC.20"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "12.09",
+          "requirement": "Disclose, either separately or in aggregate, provisions for impairment of intangible assets that are reversed because the reasons for which they were made cease to apply, in a note to the financial statements if not shown separately in the income statement.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.20(2), R-L Sch 1.20(2),",
+            "FRS 102-1AC.21"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "12.1",
+          "requirement": "Where the useful economic life of an intangible asset cannot be reliably estimated and it is being written off over a period not exceeding 10 years, disclose:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [
+            "R-C Sch 1.22(4), R-L Sch 1.22(4)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "12.1.a",
+          "requirement": "the period chosen; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "12.1.b",
+          "requirement": "the reason for choosing that period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "intangible_assets",
+          "references": [],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_13",
+      "title": "CONTINGENCIES AND COMMITMENTS",
+      "items": [
+        {
+          "id": "13.01",
+          "requirement": "Disclose the total amount of each of the following that are not included in the balance sheet:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [
+            "R-C Sch 1.57(1), R-L Sch 1.55(1),",
+            "FRS 102-1AC.29"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "13.01.a",
+          "requirement": "financial commitments;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.01.b",
+          "requirement": "guarantees;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.01.c",
+          "requirement": "contingencies.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.note",
+          "requirement": "[Guidance]\nFRS 102-1AC.29 indicates that such commitments can arise in a variety of situations, including in relation to group entities, investments, property, plant and equipment, leases and pension obligations.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.02",
+          "requirement": "For any of the following that are not included in the balance sheet, disclose, at the foot of the balance sheet, an indication of the nature and form of any valuable security given by the company for each class of the following:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [
+            "R-C Sch 1.57(2), R-L Sch 1.55(2),",
+            "FRS 102-1AC.30"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "13.02.a",
+          "requirement": "financial commitments;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.02.b",
+          "requirement": "guarantees;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.02.c",
+          "requirement": "contingencies.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.note_2",
+          "requirement": "[Guidance]\nFRS 102-1AC.30 indicates that paragraphs 11.46 basic financial instruments, 13.22 inventories, 16.10 investment property, 17.32 property, plant and equipment and 18.28 intangible assets, address similar requirements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.03",
+          "requirement": "Disclose the total amount of any commitments included in 13.01 above concerning pensions.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [
+            "R-C Sch 1.57(3), R-L Sch 1.55(3),",
+            "FRS 102-1AC.29"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "13.04",
+          "requirement": "Disclose separately the total amount of any commitments included in 13.01 above which are undertaken on behalf of or for the benefit of:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [
+            "R-C Sch 1.57(4), R-L Sch 1.55(4)",
+            "FRS 102-1AC.29"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "13.04.a",
+          "requirement": "any parent, fellow subsidiary or any subsidiary of the small entity; or",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.04.b",
+          "requirement": "any undertaking in which the small entity has a participating interest.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "13.05",
+          "requirement": "Disclose the risks or benefits arising from arrangements that the small entity is, or has been a party to during the reporting period, and which are not reflected in the statement of financial position; disclosure should be to the extent necessary to enable the financial position of the small entity to be assessed.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "contingencies_and_commitments",
+          "references": [
+            "s410A(2)(a),",
+            "FRS 102-1AC.31"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "13.note_3",
+          "requirement": "[Guidance]\nFRS 102.1AC.31 states that examples of off-balance sheet arrangements include risk and benefit-sharing arrangements or obligations arising from a contract such as debt factoring, combined sale and repurchase arrangements, consignment stock arrangements, take or pay arrangements, securitisation arranged through separate entities, pledged assets, operating lease arrangements, outsourcing and the like. In many cases, the disclosures about financial commitments and contingencies required by 13.01, 13.02, 13.03 and 13.04 above will also address such arrangements.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_14",
+      "title": "RELATED PARTY DISCLOSURES",
+      "items": [
+        {
+          "id": "14.01",
+          "requirement": "Where the small entity is a subsidiary, disclose the following information in respect of the parent of the smallest group for which consolidated financial statements are drawn up of which the small entity is a member:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [
+            "R-C Sch 1.65, R-L Sch 1.63,",
+            "FRS 102-1AC.34"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "14.01.a",
+          "requirement": "the name of the parent which draws up the consolidated financial statements;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.01.b",
+          "requirement": "the address of the parent’s registered office (whether in or outside the UK); or",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.01.c",
+          "requirement": "if it is unincorporated, the address of its principal place of business.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.02",
+          "requirement": "Disclose particulars of material transactions the small entity has entered into that have not been concluded under normal market conditions with:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [
+            "R-C Sch 1.66(1), R-L Sch 1.64(1),",
+            "FRS 102-1AC.35"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "14.02.a",
+          "requirement": "owners holding a participating interest in the small entity;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.02.b",
+          "requirement": "companies in which the small entity itself has a participating interest; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.02.c",
+          "requirement": "the small entity’s directors [or members of its governing body].",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.03",
+          "requirement": "In particular disclose:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [
+            "R-C Sch 1.66(2), R-L Sch 1.64(2),",
+            "FRS 102-1AC.35"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "14.03.a",
+          "requirement": "the amount of such transactions",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.03.b",
+          "requirement": "the nature of the related party relationship; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.03.c",
+          "requirement": "other information about the transactions necessary for an understanding of the financial position of the small entity.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.note",
+          "requirement": "[Guidance]\nInformation about individual transactions may be aggregated according to their nature, except where separate information is necessary for an understanding of the effects of the related party transactions on the financial position of the small entity.\nParticulars need not be given of transactions entered into between two or more members of a group, provided that any subsidiary which is a party to the transaction is wholly-owned by such a member.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04",
+          "requirement": "Disclose in the notes to the financial statements the following details of advances and credits granted by the small entity to its directors/designated members and guarantees of any kind entered into by the small entity on behalf of its directors/designated members:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [
+            "s413,",
+            "FRS 102-1AC .36"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "14.04.a",
+          "requirement": "its amount;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04.b",
+          "requirement": "an indication of the interest rate;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04.c",
+          "requirement": "its main conditions;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04.d",
+          "requirement": "any amounts repaid;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04.e",
+          "requirement": "any amounts written off;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04.f",
+          "requirement": "any amounts waived;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04.g",
+          "requirement": "the total of 'a';",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04.h",
+          "requirement": "the total of 'd';",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "14.04.h.i",
+          "requirement": "the total of 'e';",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.04.j",
+          "requirement": "the total of 'f'.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.05",
+          "requirement": "Disclose the following details of any guarantees granted on behalf of a director/designated member:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [
+            "s413,",
+            "FRS 102-1AC .36"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "14.05.a",
+          "requirement": "its main terms;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.05.b",
+          "requirement": "the amount of the maximum liability that may be incurred by the small entity;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.05.c",
+          "requirement": "any amount paid and any liability incurred by the small entity for the purpose of fulfilling the guarantee (including any loss incurred by reason of enforcement of the guarantee);",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.05.d",
+          "requirement": "the total of 'b' ;",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "14.05.e",
+          "requirement": "the total of 'c'.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "related_party_disclosures",
+          "references": [],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_15",
+      "title": "OTHER",
+      "items": [
+        {
+          "id": "15.01",
+          "requirement": "Disclose in a note to the financial statements the individual amounts where items to which Arabic numbers are given in any of the formats have been combined, unless they are not material.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [
+            "R-C Sch 1.4(3), R-L Sch 1.4(3),",
+            "FRS 102-1AC.38"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.02",
+          "requirement": "Disclose the nature and financial effect of material events arising after the reporting date which are not reflected in the income statement or statement of financial position.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [
+            "R-C Sch 1.64, R-L Sch 1.62,",
+            "FRS 102-1AC.39"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.03",
+          "requirement": "If the accounts are prepared in accordance with the small companies/LLPs regime, then the balance sheet must contain, above the signature of the directors/members, a statement that the accounts have been prepared in accordance with the provisions applicable to entities subject to the small companies/LLPs regime.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [
+            "s414(3), FRS 102-1A.6A"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.04",
+          "requirement": "If the entity is taking advantage of the exemption from an audit available under s477 (small entities), s479A (subsidiary companies) or s480 (dormant entities), the balance sheet must contain a statement by the directors/members, above the director's/member's signature to the effect that, for the year in question:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "15.04.a",
+          "requirement": "the entity was entitled to exemption from audit under s477 (or s479A or s480 as appropriate);",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [
+            "s475(2)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.04.b",
+          "requirement": "the members have not required the company to obtain an audit of its accounts for the year in accordance with s476; and",
+          "guidance": "",
+          "applicability_rules": [
+            {
+              "rule_type": "entity_type",
+              "operator": "=",
+              "value_json": "company",
+              "description": "Applicable to companies",
+              "sort_order": 0
+            }
+          ],
+          "applicability_hint": "N/A for LLPs — this disclosure is required for companies only.",
+          "category": "other",
+          "references": [
+            "s475(3)(a)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.04.c",
+          "requirement": "the directors/members acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of accounts.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [
+            "s475(3)(b)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.note",
+          "requirement": "Guidance. \nThe requirements for accounting records  and preparation of accounts are set out in s386 and s393-414 respectively. However, there is no requirement to elaborate on these requirements or refer to the section numbers in the balance sheet statement.\nThe wording in (a) to (c) above follows the Companies House suggested wording.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "15.05",
+          "requirement": "The registered number of the entity must be shown in a prominent position on the balance sheet or one of the other documents required to be filed under the Companies Act.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [
+            "s1068(3)(c)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.06",
+          "requirement": "An entity shall disclose on the balance sheet:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "15.06.a",
+          "requirement": "the date when the financial statements were approved by the board of directors/ all the members; \n\nNB. Though not required by legislation or FRS 102-1A, it is considered best practice.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "15.06.b",
+          "requirement": "the name of the director/ designated member who signed on behalf of the board; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [
+            "s414(1), s444(6)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.06.c",
+          "requirement": "if a copy of the accounts is sent to Companies House, that copy must include the signature of that director/ designated member, unless submitted electronically.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [
+            "s414(2)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "15.07",
+          "requirement": "If the entity is a parent not preparing group accounts, complete  Appendix 3.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "15.08",
+          "requirement": "If the entity has opted to take advantage of some or all of the Companies House filing exemptions as permitted by the Companies Act 2006 s.444 (sometimes referred to as 'filleted' accounts), complete the filleted accounts checklist.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "other",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "15.note_2",
+          "requirement": "[Guidance]\nThe Economic Crime and Corporate Transparency Act 2023 (ECCTA 2023) was enacted on 26 October 2023. Through this, the UK Government is reforming how companies report to Companies House and what information they report upon.\n\nA key change is that small companies will no longer have the option to prepare and file abridged or filleted financial statements, streamlining the types of financial statements filed at Companies House.\n\nThis change is anticipated to be coming into effect post 1 April 2027, and from this date small companies will be required to file a copy of balance sheet, directors’ report, auditor’s report (unless exempt) and profit and loss account. 21 months transition period will be provided to the companies before the option to file abridged or filleted accounts filing option is removed.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "note",
+          "references": [],
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "section_16",
+      "title": "ENCOURAGED DISCLOSURES",
+      "items": [
+        {
+          "id": "16.01",
+          "requirement": "Have the following encouraged disclosures been considered where they are relevant to the entity's transactions, other events and conditions?",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [],
+          "is_header": true
+        },
+        {
+          "id": "16.01.a",
+          "requirement": "A statement of compliance with FRS 102, adapted to refer to Section 1A",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [
+            "FRS 102-3.3"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "16.01.b",
+          "requirement": "A statement that it is a public benefit entity.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [
+            "FRS 102-PBE3.3A"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "16.01.c",
+          "requirement": "The disclosures relating to going concern.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [
+            "FRS 102-3.9"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "16.01.d",
+          "requirement": "Dividends declared and paid or payable during the period.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [
+            "FRS 102-6.5(b)"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "16.01.e",
+          "requirement": "On first-time adoption of this FRS, an explanation of how the transition has affected its financial position and financial performance.",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [
+            "FRS 102-35.13"
+          ],
+          "is_header": false
+        },
+        {
+          "id": "16.01.f",
+          "requirement": "A small entity that is a parent and which is voluntarily choosing to prepare consolidated financial statements it:",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [
+            "FRS 102.1A.22(b), 1A.22(d)"
+          ],
+          "is_header": true
+        },
+        {
+          "id": "16.01.f.i",
+          "requirement": "is encouraged to provide the disclosures set out in paragraph 9.23; and",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [],
+          "is_header": false
+        },
+        {
+          "id": "16.01.f.ii",
+          "requirement": "shall provide any disclosures required by Schedule 6 of the Small Companies Regulations",
+          "guidance": "",
+          "applicability_rules": [],
+          "applicability_hint": "",
+          "category": "encouraged_disclosures",
+          "references": [],
+          "is_header": false
+        }
+      ]
+    }
+  ]
+}
