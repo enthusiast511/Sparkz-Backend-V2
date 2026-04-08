@@ -584,6 +584,51 @@ def nodes_to_checklist_json(
     }
 
 
+def _apply_frs102_structural_cleanup(nodes: list[NodeRecord]) -> int:
+    """
+    FRS 102-only cleanup for obvious structural headings that should not be assessed.
+
+    Keep this conservative to avoid dropping genuine disclosure requirements.
+    """
+    changed = 0
+    heading_titles = {
+        "auditor's reports",
+        "assurance review report",
+        "compliance with frs 102 1a",
+        "frequency of reporting",
+        "comparative information",
+        "materiality and aggregation",
+        "formats",
+    }
+
+    for n in nodes:
+        code = (n.code or "").strip()
+        title = (n.title or "").strip()
+        low = title.lower()
+
+        # Section-level blank-code carry lines like "2.L1", "3.L1" are structural labels.
+        if re.fullmatch(r"\d+\.L\d+", code):
+            if n.is_answerable:
+                n.is_answerable = False
+                n.node_type = "guidance_note"
+                changed += 1
+            continue
+
+        # Ultra-short heading captions with no refs/rules are structural in FRS102 workbook.
+        if (
+            n.node_type == "detail_line"
+            and n.is_answerable
+            and low in heading_titles
+            and not n.references
+            and not n.applicability_rules
+        ):
+            n.is_answerable = False
+            n.node_type = "guidance_note"
+            changed += 1
+
+    return changed
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Main
 # ─────────────────────────────────────────────────────────────────────────────
@@ -636,6 +681,11 @@ def main():
         nodes = normalize_rows(sheet_name, df)
         nodes = build_hierarchy(nodes)
         print(f"  Nodes extracted: {len(nodes)}")
+
+        if str(cfg["standard"]).strip().lower().startswith("frs 102"):
+            changed = _apply_frs102_structural_cleanup(nodes)
+            if changed:
+                print(f"  FRS102 structural rows de-assessed: {changed}")
 
         checklist = nodes_to_checklist_json(nodes, cfg["standard"], cfg["version"])
         # Normalise headers, note rows, and applicability hints (requires backend on path)
