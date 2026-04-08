@@ -185,32 +185,12 @@
       "title": "AUDITOR'S AND ACCOUNTANT'S REPORTS",
       "items": [
         {
-          "id": "2.L1",
-          "requirement": "Auditor's reports",
-          "guidance": "",
-          "applicability_rules": [],
-          "applicability_hint": "",
-          "category": "general",
-          "references": [],
-          "is_header": false
-        },
-        {
           "id": "2.01",
           "requirement": "If an audit report is to be given, complete Appendix 1.",
           "guidance": "",
           "applicability_rules": [],
           "applicability_hint": "",
           "category": "auditor_s_and_accountant_s_reports",
-          "references": [],
-          "is_header": false
-        },
-        {
-          "id": "2.01.L1",
-          "requirement": "Assurance review report",
-          "guidance": "",
-          "applicability_rules": [],
-          "applicability_hint": "",
-          "category": "general",
           "references": [],
           "is_header": false
         },
@@ -324,16 +304,6 @@
       "id": "section_3",
       "title": "FINANCIAL STATEMENTS PRESENTATION",
       "items": [
-        {
-          "id": "3.L1",
-          "requirement": "Compliance with FRS 102 1A",
-          "guidance": "",
-          "applicability_rules": [],
-          "applicability_hint": "",
-          "category": "general",
-          "references": [],
-          "is_header": false
-        },
         {
           "id": "3.01",
           "requirement": "The accounts must disclose any additional information that is necessary to show a true and fair view.",
@@ -590,16 +560,6 @@
           "is_header": false
         },
         {
-          "id": "3.06.f.L1",
-          "requirement": "Frequency of reporting",
-          "guidance": "",
-          "applicability_rules": [],
-          "applicability_hint": "",
-          "category": "general",
-          "references": [],
-          "is_header": false
-        },
-        {
           "id": "3.07",
           "requirement": "When the end of the reporting period changes and the annual financial statements are presented for a period longer or shorter than one year, disclose the following:",
           "guidance": "",
@@ -642,16 +602,6 @@
           "is_header": false
         },
         {
-          "id": "3.07.c.L1",
-          "requirement": "Comparative information",
-          "guidance": "",
-          "applicability_rules": [],
-          "applicability_hint": "",
-          "category": "general",
-          "references": [],
-          "is_header": false
-        },
-        {
           "id": "3.08",
           "requirement": "Except when FRS 102 permits otherwise, present comparative information in respect of the preceding period:",
           "guidance": "",
@@ -681,16 +631,6 @@
           "applicability_rules": [],
           "applicability_hint": "",
           "category": "note",
-          "references": [],
-          "is_header": false
-        },
-        {
-          "id": "3.08.L1",
-          "requirement": "Materiality and aggregation",
-          "guidance": "",
-          "applicability_rules": [],
-          "applicability_hint": "",
-          "category": "general",
           "references": [],
           "is_header": false
         },
@@ -868,16 +808,6 @@
           "applicability_rules": [],
           "applicability_hint": "",
           "category": "financial_statements_presentation",
-          "references": [],
-          "is_header": false
-        },
-        {
-          "id": "3.11.e.L1",
-          "requirement": "Formats",
-          "guidance": "",
-          "applicability_rules": [],
-          "applicability_hint": "",
-          "category": "general",
           "references": [],
           "is_header": false
         },
